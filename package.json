@@ -1,5 +1,15 @@
 {
+  "name": "maps",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "parcel index.html"
+  },
   "devDependencies": {
+    "@types/faker": "^4.1.11",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/googlemaps": "^3.39.4",
+    "faker": "^4.1.0"
   }
 }
